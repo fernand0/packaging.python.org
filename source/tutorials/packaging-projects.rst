@@ -373,7 +373,7 @@ This directory will be at the root of your project:
     │   └── example_package_YOUR_USERNAME_HERE/
     │       ├── __init__.py
     │       └── example.py
-    └── tests/
+    ├── tests/
     └── dist/
         ├── example_package_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
         └── example_package_YOUR_USERNAME_HERE-0.0.1.tar.gz
