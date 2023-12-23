@@ -361,6 +361,22 @@ files in the :file:`dist` directory:
     ├── example_package_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
     └── example_package_YOUR_USERNAME_HERE-0.0.1.tar.gz
 
+This directory will be at the root of your project:
+
+.. code-block:: text
+
+    packaging_tutorial/
+    ├── LICENSE
+    ├── pyproject.toml
+    ├── README.md
+    ├── src/
+    │   └── example_package_YOUR_USERNAME_HERE/
+    │       ├── __init__.py
+    │       └── example.py
+    └── tests/
+    └── dist/
+        ├── example_package_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
+        └── example_package_YOUR_USERNAME_HERE-0.0.1.tar.gz
 
 The ``tar.gz`` file is a :term:`source distribution <Source Distribution (or "sdist")>`
 whereas the ``.whl`` file is a :term:`built distribution <Built Distribution>`.
