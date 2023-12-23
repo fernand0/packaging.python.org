@@ -361,6 +361,17 @@ files in the :file:`dist` directory:
     ├── example_package_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
     └── example_package_YOUR_USERNAME_HERE-0.0.1.tar.gz
 
+This directory will be created in the root of your package, something like:
+
+.. code-block:: text
+
+    packaging_tutorial/
+    └── src/
+        └── example_package_YOUR_USERNAME_HERE/
+            ├── __init__.py
+            └── example.py
+    └── dist/
+
 
 The ``tar.gz`` file is a :term:`source distribution <Source Distribution (or "sdist")>`
 whereas the ``.whl`` file is a :term:`built distribution <Built Distribution>`.
